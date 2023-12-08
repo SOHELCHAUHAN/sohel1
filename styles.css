@@ -1,0 +1,215 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(197, 112, 32, 0.493);
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.938));
+    color: #f3f2f2;
+    padding: 1em;
+    text-align: center;
+    box-shadow; 0px 2px 10px rgba(87, 78, 78, 0.2);
+}
+
+nav ul {
+    list-style-type: bold;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    background-color: #4d2b0c80;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.product-description {
+    color: #555;
+    margin-top: 10px;
+}
+/* Add this style to your existing CSS */
+
+#cart-items img {
+    max-width: 60px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #ff6961;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+footer {
+    background-color: #144437;
+    color: #fff;
+    text-align: center;
+    padding: 0.2em;
+    position:unset ;
+    width: 100%;
+    bottom: 0;
+}
+/* Add this style to your existing CSS */
+
+#about h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Add this style to your existing CSS */
+
+#about p {
+    color: #221b1b;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+/* Add this style to your existing CSS */
+
+.about-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* Add this style to your existing CSS */
+
+.key-points {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.key-point {
+    text-align: center;
+}
+
+.key-point i {
+    font-size: 24px;
+    color: #af0a01;
+    margin-bottom: 10px;
+}
+/* Add this style to your existing CSS */
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(5, 116, 180);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #a00a0a;
+}
+/* Add this style to your existing CSS */
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.author {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+}
+/* Add this style to your existing CSS */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+        
+    }
+
+    #contact-form,
+    #contact-info {
+        margin: 10px;
+        padding: 20px;
+    }
+    /* Add this style to your existing CSS */
+
+#quotes {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quote {
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: #555;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #888;
+}
